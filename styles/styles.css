@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-size: 62.5%;
+  }
+
+  /** GLOBALES **/
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 1.2rem auto;
+    padding-bottom: 10rem;
+    border: 1px solid black;
+    border-radius: 1.8rem;
+    background-color: #121F3D;
+    background-image: url(/img/foro_ilustracion.webp);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 50%;
+}
+
+body{
+    background-color: #03091E;
+    background-image: url(/img/stars.png);
+}
+
+h1,
+h2,
+h3,
+h4,
+.lista_texto {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+    line-height: 1.2;    
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4,
+.lista_texto {
+    font-size: 2.2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/**UTILIDADES **/
+
+.centrar-texto {
+    text-align: center;
+}
+
+.alinear-texto{
+    vertical-align: middle;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-l2rem{
+    margin-left: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+    list-style: none;
+}
+
+.fondito{
+    display: inline-block;
+    background-color: #24385B;
+    padding: 1rem;
+    border: .1rem solid #121F3D;
+    border-radius: 1rem;
+}
+
+.separador{
+    line-height: 2;
+}

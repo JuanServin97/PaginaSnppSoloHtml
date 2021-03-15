@@ -35,10 +35,7 @@ h4,
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
-.lista_texto > a{
-    transition: all 2s radial 1s;
-}
-.lista_texto > a:hover{
+.efecto_text > a:hover{
     color: #00163C;
 }
 h1 {
@@ -118,11 +115,9 @@ ol{
 
 /*Botones de descarga*/
 .button_descarga{
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 7rem 0 0 0;
+    margin: 5rem 0 0 0;
 }
 .button_docs{
     width: 20%;
@@ -130,8 +125,8 @@ ol{
     color: #fff;
     background: #24385B;
     border: 1.5px solid #03091E;
-    margin: 0 2rem;
     border-radius: 4rem;
+    opacity: .8;
 }
 .button_docs a{
     font-size: 12px;
@@ -156,7 +151,7 @@ ol{
         margin: 45% 0 0 0;
     }
     .button_docs{
-        width: 100%;
+        width: 90%;
         opacity: .8;
     }
     .button_docs a{

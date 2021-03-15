@@ -166,8 +166,13 @@ ol{
         margin: 0 2rem;
     }
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 406px){
     .button_descarga{
         margin: 70% 0 0 0;
+    }
+}
+@media only screen and (max-width: 320px){
+    .button_descarga{
+        margin: 90% 0 0 0;
     }
 }

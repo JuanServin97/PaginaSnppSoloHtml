@@ -148,7 +148,7 @@ ol{
         height: 120%;
     }
     .button_descarga{
-        margin: 45% 0 0 0;
+        margin: 65% 0 0 0;
     }
     .button_docs{
         width: 90%;
@@ -163,11 +163,11 @@ ol{
 }
 @media only screen and (max-width: 406px){
     .button_descarga{
-        margin: 70% 0 0 0;
+        margin: 82% 0 0 0;
     }
 }
 @media only screen and (max-width: 320px){
     .button_descarga{
-        margin: 90% 0 0 0;
+        margin: 120% 0 0 0;
     }
 }

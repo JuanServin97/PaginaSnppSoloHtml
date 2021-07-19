@@ -1,0 +1,24 @@
+
+/*MY code*/
+
+.bg-blu-black{
+    color: #fff;
+    background-color: #03091e;
+}
+.bg-blu{
+    color: #fff;
+    background-color: #121F3D;
+}
+
+.blue-motion{
+    color: #eee;
+    background-color: #182547;
+}
+
+.blue-motion:hover{
+    color: #fff;
+    background-color: #3A5481;
+}
+.bg-translucid{
+    background-color: #6f737a9a;
+}

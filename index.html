@@ -1,62 +1,87 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Programación CTFP-PJ</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Esta es una página para acceder a todas las informaciones importantes que necesitamos y no caben en la descripción del grupo de whatsApp">
-	<meta name="author" content="Robert Romero">
-	<meta name="robots" content="noindex">
-	<link rel="icon" type="image/png" href="img/favicon-72x72.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/36b1d5f3cd.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="./styles/normalize.css">
-	<link rel="stylesheet" href="./styles/styles.css">
-	
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Robert Romero">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="imagenes/icon/favicon-72x72.png" type="image/x-png">
+    <title>Programación CTFP-PJ</title>
+    <meta name="description" content="Esta es una página para acceder a todas las informaciones importantes que necesitamos y no caben en la descripción del grupo de whatsApp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+  </head>
+  <body class="bg-blu-black">
+    <!--Inicio de nav menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-translucid">
+      <div class="container-fluid">
+        
+        <a class="navbar-brand text-info" href="#">{ TS Programación }</a>
 
-	<main class="contenedor">
-		<div class="margin-l2rem centrar-texto">
-			<h1 class="centrar-texto">Informaciones importantes para el curso <i class="em em-star2" aria-role="presentation" aria-label="GLOWING STAR"></i></h1>
-			
-			<ul>
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-info" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="documentos.html">Documentos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Editables</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/10tz24wU9bG1ERZeglDiKPlICaT5ZUsgwll9q-ZNAEUs/edit#gid=768262323" target="_blank">Planilla para escoger los<br>horarios para practicas presenciales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Descargables
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="documents/TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf" download="TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf">Malla curricular</a></li>
+                <li><a class="dropdown-item" href="documents/flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf" download="flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf">Libro de Ingles</a></li>
+                <li><a class="dropdown-item" href="documents/HORARIO_DE_EXAMEN_FINAL.pdf" download="HORARIO_DE_EXAMEN_FINAL.pdf">Horario de exámenes</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Fin del nav menu-->
+    <!--Base-->
+    <br>
+    <section class="card text-center bg-blu-black">
+      
+      <div class="card m-3 p-3 bg-blu">
+        <h2>Grupos de WhatsApp</h2>
+        <button type="button" onclick="enlaces('poo')" class="btn blue-motion m-1" disabled>POO</button>
+        <button type="button" onclick="enlaces('frontend')" class="btn blue-motion m-1">FrontEnd</button>
+        <button type="button" onclick="enlaces('dbd')" class="btn blue-motion m-1">Diseño de Base de Datos</button>
+        <button type="button" onclick="enlaces('algoritmia')" class="btn blue-motion m-1" disabled>Algoritmia</button>
+        <button type="button" onclick="enlaces('offimatica')" class="btn blue-motion m-1">Offimática</button>
+        <button type="button" onclick="enlaces('matematica')" class="btn blue-motion m-1" disabled>Matemática</button>
+        <button type="button" onclick="enlaces('ingles')" class="btn blue-motion m-1">Inglés Técnico</button>
+        <button type="button" onclick="enlaces('comunicacion')" class="btn blue-motion m-1" disabled>Comunicación</button>
+      </div>
+      
+      <div class="card m-3 p-3 bg-blu">
+        <h2>Códigos de classroom</h2>
+        <button type="button" title="idjqhtu" id="classPoo" onclick="copiar('classPoo')" class="btn blue-motion m-1">POO</button>
+        <button type="button" title="pfwkckg" id="classFrontend" onclick="copiar('classFrontend')" class="btn blue-motion m-1">FrontEnd</button>
+        <button type="button" title="e6g2hhz" id="classDbd" onclick="copiar('classDbd')" class="btn blue-motion m-1">Diseño de Base de Datos</button>
+        <button type="button" title="co4x2ya" id="classAlgoritmia" onclick="copiar('classAlgoritmia')" class="btn blue-motion m-1">Algoritmia</button>
+        <button type="button" title="a5brtha" id="classOffimatica" onclick="copiar('classOffimatica')" class="btn blue-motion m-1">Offimática</button>
+        <button type="button" title="iuljhir" id="classMatematica" onclick="copiar('classMatematica')" class="btn blue-motion m-1">Matemática</button>
+        <button type="button" title="jzz2stf" id="classIngles" onclick="copiar('classIngles')" class="btn blue-motion m-1">Inglés Técnico</button>
+        <button type="button" title="miw5aja" id="classComunicacion" onclick="copiar('classComunicacion')" class="btn blue-motion m-1">Comunicación</button>
+      </div>
 
-				<li class="lista_texto efecto_text"><a href="documentos/HORARIO_DE_EXAMEN_FINAL.pdf" download="HORARIO_DE_EXAMEN_FINAL.pdf" target="_BLANK">HORARIO DE EXAMEN FINAL</a></li>
-
-				<li class="lista_texto efecto_text"><a href="https://drive.google.com/file/d/1dFIJ-1AgsrbI_cAvrZth3BQJK-Z-tWM8/view?usp=drivesdk" target="_BLANK">Horario de clases 1° semestre</a></li>
-
-				<li class="lista_texto efecto_text"><a href="https://docs.google.com/spreadsheets/d/10tz24wU9bG1ERZeglDiKPlICaT5ZUsgwll9q-ZNAEUs/edit#gid=768262323" target="_BLANK">Planilla para escoger Horarios para las prácticas presenciales</a></li>
-
-				<li class="lista_texto efecto_text"><a href="https://mega.nz/file/ZJdB3KBa#xIqgePNLYo4fR-CFdVFf_xN5hDiFBd5Vj0YFijfYfYE" target="_BLANK">Libro de Inglés</a></li>
-			</ul>
-		</div>
-
-		<div class="margin-l2rem centrar-texto">
-			<h2>Lista de Grupos de WhatsApp <i class="fab fa-whatsapp-square fa-2x"></i></h2>
-			<ol class="fondito separador">
-				<li class="lista_texto alinear-texto efecto_text"><a href="https://chat.whatsapp.com/Ko9Eou7UGDcLVaSetJ8Xe5">Grupo de Ofimática [PAI] </a>
-				<li class="lista_texto efecto_text"><a href="https://chat.whatsapp.com/L54SacKL28tD2y9yL02Vai">Grupo de Desarrollo de Frontend [MOIOS]</a>
-				<li class="lista_texto efecto_text"><a href="https://chat.whatsapp.com/CHA2q3lk4HQ5oXFvZDwpb2">Grupo de Diseño de Base de Dátos [BD]</a>
-				<li class="lista_texto efecto_text"><a href="https://chat.whatsapp.com/IKHGU9XUdpoBNYmeIM1Pqk">Grupo de Inglés [;)]</a>
-			</ol>
-			<h2>Códigos de classroom</h2>
-			<ol class="classroom_codigos">
-				<li class="lista_texto fondito classroom_item">Classroom de Ofimática:<br> a5brtha</li>
-				<li class="lista_texto fondito classroom_item">Classroom de Frontend MOIOS:<br> pfwkckg</li>
-				<li class="lista_texto fondito classroom_item">Classroom de Diseño de BD:<br> e6g2hhz</li>
-				<li class="lista_texto fondito classroom_item">Classroom de Inglés:<br> jzz2stf</li>
-				<li class="lista_texto fondito classroom_item">Classroom de Matemática:<br> iuljhir</li>
-				<li class="lista_texto fondito classroom_item">Classroom de Castellano:<br> miw5aja</li>
-				<li class="lista_texto fondito classroom_item">Classroom de Algorítmica:<br> co4x2ya</li>
-				<li class="lista_texto fondito classroom_item">Classroom de POO:<br> idjqhtu</li>
-			</ol>
-			<div class="button_descarga">
-				<button class="button_docs"><a href="documentos/TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf" download="TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf">Descargar<br>Malla Curricular</a></button>
-			</div>
-		</div>
-	</main>
-</body>
+    </section>
+  </body>
 </html>

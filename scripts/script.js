@@ -1,5 +1,5 @@
 //Diccionario de links
-var diccio = {"poo": "vacio", "frontend": "https://chat.whatsapp.com/L54SacKL28tD2y9yL02Vai", "dbd": "https://chat.whatsapp.com/CHA2q3lk4HQ5oXFvZDwpb2", "algoritmia": "vacio", "offimatica": "https://chat.whatsapp.com/Ko9Eou7UGDcLVaSetJ8Xe5", "matematica": "vacio", "ingles": "https://chat.whatsapp.com/IKHGU9XUdpoBNYmeIM1Pqk", "comunicacion": "vacio", "LenguajeC_Guarani": "https://chat.whatsapp.com/DXihAxihKgDBGXufJnUojT"};
+var diccio = {"frontend": "https://chat.whatsapp.com/L54SacKL28tD2y9yL02Vai", "offimatica": "https://chat.whatsapp.com/Ko9Eou7UGDcLVaSetJ8Xe5", "ingles": "https://chat.whatsapp.com/IKHGU9XUdpoBNYmeIM1Pqk", "LenguajeC_Guarani": "https://chat.whatsapp.com/DXihAxihKgDBGXufJnUojT", "ArqPcSo": "https://chat.whatsapp.com/KuMn812LoGsFOVwe6kBZLm", "PBD": "https://chat.whatsapp.com/KNhx4nrpL6s09tUDwpjrOP"};
 
 //abrir enlaces de whatsapp
 function enlaces(clave) {

@@ -26,7 +26,7 @@ function copiar(idd){
     //borro el campo de la página
     document.body.removeChild(cp);
     //mensaje de copiado
-    alert("copiado");
+    alert("Copiado");
     return;
 }
 

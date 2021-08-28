@@ -1,5 +1,5 @@
 //Diccionario de links
-var diccio = {"frontend": "https://chat.whatsapp.com/L54SacKL28tD2y9yL02Vai", "offimatica": "https://chat.whatsapp.com/Ko9Eou7UGDcLVaSetJ8Xe5", "ingles": "https://chat.whatsapp.com/IKHGU9XUdpoBNYmeIM1Pqk", "LenguajeC_Guarani": "https://chat.whatsapp.com/DXihAxihKgDBGXufJnUojT", "ArqPcSo": "https://chat.whatsapp.com/KuMn812LoGsFOVwe6kBZLm", "PBD": "https://chat.whatsapp.com/KNhx4nrpL6s09tUDwpjrOP"};
+var diccio = {"LenguajeC_Guarani": "https://chat.whatsapp.com/DXihAxihKgDBGXufJnUojT", "ArqPcSo": "https://chat.whatsapp.com/KuMn812LoGsFOVwe6kBZLm", "PBD": "https://chat.whatsapp.com/KNhx4nrpL6s09tUDwpjrOP", "classArqSO": "https://classroom.google.com/c/MzcxOTE5NzcwNjIw?cjc=cdo4b4v", "classCG": "https://classroom.google.com/c/MzcyNTEwMTkzODIw?hl=es&cjc=nnbh6xt", "classPBD": "https://classroom.google.com/c/MzcxOTE5NzcwNjMx?cjc=zd73llr", "classEstadistica": "https://classroom.google.com/c/Mzc2OTA1MzU1NTg4?cjc=4gbe42e"};
 
 //abrir enlaces de whatsapp
 function enlaces(clave) {

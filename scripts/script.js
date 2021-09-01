@@ -1,5 +1,5 @@
 //Diccionario de links
-var diccio = {"LenguajeC_Guarani": "https://chat.whatsapp.com/DXihAxihKgDBGXufJnUojT", "ArqPcSo": "https://chat.whatsapp.com/KuMn812LoGsFOVwe6kBZLm", "PBD": "https://chat.whatsapp.com/KNhx4nrpL6s09tUDwpjrOP", "classArqSO": "https://classroom.google.com/c/MzcxOTE5NzcwNjIw?cjc=cdo4b4v", "classCG": "https://classroom.google.com/c/MzcyNTEwMTkzODIw?hl=es&cjc=nnbh6xt", "classPBD": "https://classroom.google.com/c/MzcxOTE5NzcwNjMx?cjc=zd73llr", "classEstadistica": "https://classroom.google.com/c/Mzc2OTA1MzU1NTg4?cjc=4gbe42e"};
+var diccio = {"LenguajeC_Guarani": "https://chat.whatsapp.com/DXihAxihKgDBGXufJnUojT", "ArqPcSo": "https://chat.whatsapp.com/KuMn812LoGsFOVwe6kBZLm", "PBD": "https://chat.whatsapp.com/KNhx4nrpL6s09tUDwpjrOP", "classArqSO": "https://classroom.google.com/c/MzcxOTE5NzcwNjIw?cjc=cdo4b4v", "classCG": "https://classroom.google.com/c/MzcyNTEwMTkzODIw?hl=es&cjc=nnbh6xt", "classPBD": "https://classroom.google.com/c/MzcxOTE5NzcwNjMx?cjc=zd73llr", "classEstadistica": "https://classroom.google.com/c/Mzc2OTA1MzU1NTg4?cjc=4gbe42e", "classPOO": "https://classroom.google.com/c/Mzc3Nzk4OTU4NzU4?cjc=izfehym", "classReqSoft": "https://classroom.google.com/c/MzE5MzUxMTI4Mjg3?cjc=4ps5cxi"};
 
 //abrir enlaces de whatsapp
 function enlaces(clave) {

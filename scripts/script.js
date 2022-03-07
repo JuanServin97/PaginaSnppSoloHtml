@@ -1,5 +1,5 @@
 //Diccionario de links
-var diccio = {"LenguajeC_Guarani": "https://chat.whatsapp.com/DXihAxihKgDBGXufJnUojT", "ArqPcSo": "https://chat.whatsapp.com/KuMn812LoGsFOVwe6kBZLm", "PBD": "https://chat.whatsapp.com/KNhx4nrpL6s09tUDwpjrOP"};
+var diccio = {"proyecto1": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2"};
 
 //abrir enlaces de whatsapp
 function enlaces(clave) {

@@ -14,12 +14,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="scripts/script.js"></script>
   </head>
+
   <body class="bg-blu-black">
     <!--Inicio de nav menu-->
     <nav class="navbar navbar-expand-lg navbar-light bg-translucid">
       <div class="container-fluid">
         
-        <a class="navbar-brand text-info" href="#">{ TS Programación S3 }</a>
+        <a class="navbar-brand text-info user-select-none" href="#">{ TS Programación S3 }</a>
 
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,10 +45,7 @@
                 Descargables
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="documents/EXAMEN FINAL COMPLEMENTARIO.pdf" download="EXAMEN FINAL COMPLEMENTARIO.pdf">Examen final complementario</a></li>
-                <li><a class="dropdown-item" href="documents/EXAMEN FINAL ORDINARIO.pdf" download="EXAMEN FINAL ORDINARIO.pdf">Examen final ordinario</a></li>
                 <li><a class="dropdown-item" href="documents/SOLICITUD DE NUEVA FECHA DE EXAMEN.docx" download="SOLICITUD DE NUEVA FECHA DE EXAMEN.docx">Solicitud de nueva fecha de exámen</a></li>
-                <li><a class="dropdown-item" href="documents/Horario_De_Clases_S2.pdf" download="Horario_De_Clases_S2.pdf">Horario De Clases S2</a></li>
                 <li><a class="dropdown-item" href="documents/TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf" download="TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf">Malla curricular</a></li>
                 <li><a class="dropdown-item" href="documents/flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf" download="flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf">Libro de Ingles S1</a></li>
               </ul>
@@ -57,9 +55,11 @@
       </div>
     </nav>
     <!--Fin del nav menu-->
+
     <!--Base-->
     <br>
     <section class="card text-center bg-blu-black">
+
       <!--Inicio Aviso-->
       <div class="card m-3 bg-blu">
         <div class="row">
@@ -68,36 +68,30 @@
           </div> 
           <div class="col-md-10">
             <div class="card-body">
-              <h4><div class="card-title">
-                Aviso
-              </div></h4>
+              <h4>
+                <div class="card-title">
+                  Aviso
+                </div>
+              </h4>
               <div class="card-text">
-                Para Justificar ausencias en las prácticas por motivos de trabajo: Enviar constancia de trabajo a <a href="mailto:tecnicosuperiorsanlo@gmail.com?Subject=Justificativo%20de%20Ausencia"><b>tecnicosuperiorsanlo@gmail.com</b></a>
+                Para Justificar ausencias en las prácticas por motivos de trabajo: Enviar constancia de trabajo a <b id="Faviso"><a href="mailto:tecnicosuperiorsanlo@gmail.com?Subject=Justificativo%20de%20Ausencia">tecnicosuperiorsanlo@gmail.com</a></b>
               </div>
             </div>
           </div>
         </div>
       </div>
       <!--Fin Aviso-->
+
       <div class="card m-3 p-3 bg-blu">
         <h2>Grupos de WhatsApp</h2>
-        <button type="button" onclick="enlaces('LenguajeC_Guarani')" class="btn blue-motion m-1">Lenguaje C y Guaraní S2</button>
-        <button type="button" onclick="enlaces('ArqPcSo')" class="btn blue-motion m-1">Arq. de PC y SO S2</button>
-        <button type="button" onclick="enlaces('PBD')" class="btn blue-motion m-1">Programación de BD S2</button>
+        <button type="button" onclick="enlaces('proyecto1')" class="btn blue-motion m-1">Proyecto 1</button>
       </div>
       
       <div class="card m-3 p-3 bg-blu">
         <h2>Classroom's</h2>
-
-        <button type="button" title="cdo4b4v" id="classArqSO" onclick="copiar('classArqSO')" class="btn blue-motion m-1">Arq. de PC y SO</button>
-        <button type="button" title="kebgzpj" id="classGua" onclick="copiar('classGua')" class="btn blue-motion m-1">Guaraní</button>
-        <button type="button" title="4gbe42e" id="classEstadistica" onclick="copiar('classEstadistica')" class="btn blue-motion m-1">Estadística</button>
-        <button type="button" title="5kcz46m" id="classMetod" onclick="copiar('classMetod')" class="btn blue-motion m-1">Metod. de la investigacion</button>
-        <button type="button" title="zd73llr" id="classPBD" onclick="copiar('classPBD')" class="btn blue-motion m-1">Programación de BD</button>
-        <button type="button" title="nnbh6xt" id="classLC" onclick="copiar('classLC')" class="btn blue-motion m-1">Lenguaje C</button>
-        <button type="button" title="izfehym" id="classPOO" onclick="copiar('classPOO')" class="btn blue-motion m-1">POO 2</button>
-        <button type="button" title="4ps5cxi" id="classReqSoft" onclick="copiar('classReqSoft')" class="btn blue-motion m-1">Req. de de Software</button> 
+        <button type="button" title="lbcmrcr" id="classProyecto1" onclick="copiar('classProyecto1')" class="btn blue-motion m-1">Proyecto 1</button>
       </div>
+
     </section>
   </body>
 </html>

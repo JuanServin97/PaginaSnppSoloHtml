@@ -1,6 +1,26 @@
 
 /*MY code*/
 
+/*Inicio Link Avisos*/
+#Faviso a:link{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: #000 2px 2px 1px;
+}
+
+#Faviso a:visited{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#Faviso a:hover{
+    color: skyblue;
+}
+#Faviso a:active{
+    text-shadow: none;
+}
+/*Fin Link Avisos*/
+
 .bg-blu-black{
     color: #fff;
     background-color: #03091e;

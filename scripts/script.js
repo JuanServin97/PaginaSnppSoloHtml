@@ -7,7 +7,7 @@ function enlaces(clave) {
         alert("Este enlace no está disponible");
         return;
     }
-    window.open(diccio[clave], '_self'); //abre el enlace
+    window.open(diccio[clave], '_blank'); //abre el enlace
     return;
 }
 

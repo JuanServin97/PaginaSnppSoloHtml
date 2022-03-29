@@ -1,5 +1,5 @@
 //Diccionario de links
-var diccio = {"proyecto1": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2", "AdminYConta":"https://chat.whatsapp.com/Eqrtz2F3hYkBUEPPp0g1CD"};
+var diccio = {"proyecto1": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2", "AdminYConta":"https://chat.whatsapp.com/LPbWEEFsqET0XjwCtZ8iO4"};
 
 //abrir enlaces de whatsapp
 function enlaces(clave) {

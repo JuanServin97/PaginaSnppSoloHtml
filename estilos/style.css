@@ -1,5 +1,8 @@
 
 /*MY code*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
 
 /*Inicio Link Avisos*/
 #Faviso a:link{
@@ -41,4 +44,35 @@
 }
 .bg-translucid{
     background-color: #6f737a9a;
+}
+
+.glitch-efect{
+    font-family: 'Rubik', sans-serif;
+    color: aqua;
+    text-shadow: none;
+    animation: glitch 10s infinite;
+}
+
+@keyframes glitch {
+    0% {font-family: 'Rubik', sans-serif; color: aqua; text-shadow: none;} 
+    9% {font-family: 'Rubik', sans-serif; color: aqua;}
+
+    10% {font-family: 'Rubik Glitch', cursive;}
+    15% {font-family: 'Rubik Glitch', cursive;}
+
+    16% {font-family: 'Rubik', sans-serif; color: aqua;}
+    59% {font-family: 'Rubik', sans-serif; color: aqua; text-shadow: none;}
+
+    60% {font-family: 'Rubik Glitch', cursive; color:rgb(0, 0, 0); text-shadow: -1px 1px 2px rgb(255, 255, 255);}
+    62% {font-family: 'Rubik Glitch', cursive; color:rgb(255, 255, 255); text-shadow: -1px 1px 2px rgb(0, 0, 0);}
+    64% {font-family: 'Rubik Glitch', cursive; color: aqua;text-shadow: -1px 1px 2px rgb(247, 0, 255);}
+    
+    65% {font-family: 'Rubik', sans-serif; color: aqua; text-shadow: none;}
+
+    67% {font-family: 'Rubik Glitch', cursive; color:rgb(247, 0, 255); text-shadow: -1px 1px 2px rgb(0, 0, 0);}
+    69% {font-family: 'Rubik Glitch', cursive; color:rgb(0, 0, 0); text-shadow: -1px 1px 2px rgb(255, 0, 170);}
+    71% {font-family: 'Rubik Glitch', cursive; color: rgb(0, 0, 0);text-shadow: -1px 1px 2px rgb(247, 0, 255);}
+    
+    72% {font-family: 'Rubik', sans-serif; color: aqua; text-shadow: none;}
+    100% {font-family: 'Rubik', sans-serif; color: aqua;}
 }

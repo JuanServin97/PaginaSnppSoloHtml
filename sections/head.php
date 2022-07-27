@@ -1,3 +1,16 @@
+<!--Identifico el link activo-->
+<?php
+    if ($GLOBALS['ubicaURL'] == "index"){
+        $index = ' active text-info ';
+        $documentos = ' text-white ';
+    }else{
+        $index = ' text-white ';
+        $documentos = ' active text-info ';
+    }
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -17,7 +30,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-translucid">
             <div class="container-fluid">
 
-                <a class="navbar-brand text-info user-select-none" href="https://ctfp-pj.netlify.app/index.html">{ TS Programación S3 }</a>
+                <a class="navbar-brand user-select-none glitch-efect" href="https://ctfp-pj.netlify.app/index.php">{ TS Programación S4 }</a>
 
                 <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,18 +40,11 @@
                     <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="https://ctfp-pj.netlify.app/index.html">Inicio</a>
+                            <a class="nav-link <?php echo $index;?>" href="https://ctfp-pj.netlify.app/index.php">Inicio</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active text-info" href="https://ctfp-pj.netlify.app/documentos.html">Documentos</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Editables</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/10tz24wU9bG1ERZeglDiKPlICaT5ZUsgwll9q-ZNAEUs/edit#gid=768262323" target="_blank">Planilla para escoger los<br>horarios para practicas presenciales</a></li>
-                            </ul>
+                            <a class="nav-link <?php echo $documentos;?>" href="https://ctfp-pj.netlify.app/documentos.php">Documentos</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -47,7 +53,6 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="documents/Horario_De_Clases_S3.pdf" download="Horario_De_Clases_S3.pdf">Horario de clases S3</a></li>
-                                <li><a class="dropdown-item" href="documents/Horario Final Ordinario 3º Sem. 2022 .pdf" download="Horario Final Ordinario 3º Sem. 2022 .pdf">Exámenes Finales</a></li>
                                 <li><a class="dropdown-item" href="documents/SOLICITUD DE NUEVA FECHA DE EXAMEN.docx" download="SOLICITUD DE NUEVA FECHA DE EXAMEN.docx">Solicitud de nueva fecha de exámen</a></li>
                                 <li><a class="dropdown-item" href="documents/TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf" download="TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf">Malla curricular</a></li>
                                 <li><a class="dropdown-item" href="documents/flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf" download="flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf">Libro de Ingles S1</a></li>
@@ -60,17 +65,3 @@
         </nav>
 
         <!--Fin del nav menu-->
-        
-        <div class=" bg-blu-black card text-center">
-            
-            <div class="card m-3 p-3 bg-blu">
-                <a href="https://drive.google.com/file/d/1lkxsfdWRYrz0_oI44dRBdJHwHNf5E6OD/view?usp=sharing" target="_blank" class="btn blue-motion m-1">Horario de Clases S3</a>
-                <a href="https://drive.google.com/file/d/1m4OPQVMmeupR5kvblJeYbfCtSvQHyIAq/view?usp=sharing" target="_blank" class="btn blue-motion m-1">Exámenes Finales</a>
-                <a href="https://drive.google.com/file/d/1ocegaaK6drh5pFzsRYPAfEM2uoX6AQ86/view?usp=sharing" target="_blank" class="btn blue-motion m-1">Malla curricular</a>
-                <a href="https://mega.nz/file/ZJdB3KBa#xIqgePNLYo4fR-CFdVFf_xN5hDiFBd5Vj0YFijfYfYE" target="_blank" class="btn blue-motion m-1">Libro de inglés S1</a>
-            </div>
-            
-        </div>
-
-    </body>
-</html>

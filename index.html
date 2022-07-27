@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Robert Romero">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="imagenes/icon/favicon-72x72.png" type="image/x-png">
+    <title>Programación CTFP-PJ</title>
+    <meta name="description" content="Esta es una página para acceder a todas las informaciones importantes que necesitamos en el TS en Programación">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+  </head>
+
+  <body class="bg-blu-black">
+    <!--Inicio de nav menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-translucid">
+      <div class="container-fluid">
+        
+        <a class="navbar-brand text-info user-select-none" href="https://ctfp-pj.netlify.app/index.html">{ TS Programación S3 }</a>
+
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-info" aria-current="page" href="https://ctfp-pj.netlify.app/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="https://ctfp-pj.netlify.app/documentos.html">Documentos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Editables</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/10tz24wU9bG1ERZeglDiKPlICaT5ZUsgwll9q-ZNAEUs/edit#gid=768262323" target="_blank">Planilla para escoger los<br>horarios para practicas presenciales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Descargables
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="documents/Horario_De_Clases_S3.pdf" download="Horario_De_Clases_S3.pdf">Horario de clases S3</a></li>
+                <li><a class="dropdown-item" href="documents/Horario Final Ordinario 3º Sem. 2022 .pdf" download="Horario Final Ordinario 3º Sem. 2022 .pdf">Exámenes Finales</a></li>
+                <li><a class="dropdown-item" href="documents/SOLICITUD DE NUEVA FECHA DE EXAMEN.docx" download="SOLICITUD DE NUEVA FECHA DE EXAMEN.docx">Solicitud de nueva fecha de exámen</a></li>
+                <li><a class="dropdown-item" href="documents/TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf" download="TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf">Malla curricular</a></li>
+                <li><a class="dropdown-item" href="documents/flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf" download="flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf">Libro de Ingles S1</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link text-white" href="https://discord.gg/kTGg9aQZDt" target="_blank">Discord</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Fin del nav menu-->
+
+    <!--Base-->
+    <br>
+    <section class="card text-center bg-blu-black">
+
+      <!--Inicio Aviso-->
+      <div class="card m-3 bg-blu">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="imagenes/tools/Info_Aviso.png" class="img-fluid m-1" alt="Aviso">
+          </div> 
+          <div class="col-md-10">
+            <div class="card-body">
+              <h4>
+                <div class="card-title">
+                  Aviso
+                </div>
+              </h4>
+              <div class="card-text">
+                Para Justificar ausencias en las prácticas por motivos de trabajo: Enviar constancia de trabajo a <b id="Faviso"><a href="mailto:tecnicosuperiorsanlo@gmail.com?Subject=Justificativo%20de%20Ausencia">tecnicosuperiorsanlo@gmail.com</a></b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fin Aviso-->
+
+      <div class="card m-3 p-3 bg-blu">
+        <h2>Grupos de WhatsApp</h2>
+        <button type="button" onclick="enlaces('proyecto1')" class="btn blue-motion m-1">Proyecto 1 y Tec. de Servidores</button>
+        <button type="button" onclick="enlaces('AdminYConta')" class="btn blue-motion m-1">Administración Y Contabilidad</button>
+      </div>
+      
+      <div class="card m-3 p-3 bg-blu">
+        <h2>Classroom's</h2>
+        <button type="button" title="kxw2dhy" id="classContaBasic" onclick="copiar('classContaBasic')" class="btn blue-motion m-1">Contabilidad Básica</button>
+        <button type="button" title="kxkpy6p" id="classAdminEmp" onclick="copiar('classAdminEmp')" class="btn blue-motion m-1">Admin. Empresarial</button>
+        <button type="button" title="lbcmrcr" id="classProyecto1" onclick="copiar('classProyecto1')" class="btn blue-motion m-1">Proyecto 1</button>
+        <button type="button" title="6sqnnlr" id="classTservidores" onclick="copiar('classTservidores')" class="btn blue-motion m-1">Tec. de Servidores</button>
+        <button type="button" title="zkb73aa" id="classPHP" onclick="copiar('classPHP')" class="btn blue-motion m-1">Lenguaje PHP</button>
+        <button type="button" title="jbokjje" id="classJavaWeb" onclick="copiar('classJavaWeb')" class="btn blue-motion m-1">Java Web</button>
+        <button type="button" title="rwoxrcp" id="classProgMovil" onclick="copiar('classProgMovil')" class="btn blue-motion m-1">Programación Movil</button>
+        <button type="button" title="werkf47" id="class5S" onclick="copiar('class5S')" class="btn blue-motion m-1">Metodología 5S</button>
+      </div>
+
+    </section>
+  </body>
+</html>

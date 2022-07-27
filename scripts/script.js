@@ -1,9 +1,9 @@
 //Diccionario de links
-var diccio = {"PDR": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2"};
+var diccio = {"proyecto1": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2", "AdminYConta":"https://chat.whatsapp.com/LPbWEEFsqET0XjwCtZ8iO4"};
 
 //abrir enlaces de whatsapp
 function enlaces(clave) {
-    if (diccio[clave] == undefined) { //si la clave del diccionario dice vacía, entonces avisa que el enlace no está disponible
+    if (diccio[clave] == "vacio") { //si la clave del diccionario dice vacía, entonces avisa que el enlace no está disponible
         alert("Este enlace no está disponible");
         return;
     }

@@ -52,7 +52,7 @@
                                 Descargables
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="documents/Horario_De_Clases_S3.pdf" download="Horario_De_Clases_S3.pdf">Horario de clases S3</a></li>
+                                <li><a class="dropdown-item" href="documents/Horario_De_Clases_S4.pdf" download="Horario_De_Clases_S4.pdf">Horario de clases S4</a></li>
                                 <li><a class="dropdown-item" href="documents/SOLICITUD DE NUEVA FECHA DE EXAMEN.docx" download="SOLICITUD DE NUEVA FECHA DE EXAMEN.docx">Solicitud de nueva fecha de exámen</a></li>
                                 <li><a class="dropdown-item" href="documents/TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf" download="TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS (2).pdf">Malla curricular</a></li>
                                 <li><a class="dropdown-item" href="documents/flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf" download="flash-on-english-for-mechanics-electronics-and-technical-assistance-dlscrib.com.pdf">Libro de Ingles S1</a></li>

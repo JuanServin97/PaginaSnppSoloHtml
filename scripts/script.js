@@ -1,5 +1,5 @@
 //Diccionario de links
-var diccio = {"PDR": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2"};
+var diccio = {"PDR": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2", "LL":"https://chat.whatsapp.com/GV2sMWZe2pdBsM99OjRbbx"};
 
 //abrir enlaces de whatsapp
 function enlaces(clave) {

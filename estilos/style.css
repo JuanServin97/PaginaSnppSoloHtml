@@ -1,7 +1,93 @@
 
+body{
+    height: 100%
+}
+
 /*MY code*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.docItem {
+    position: relative;
+    display: block;
+    width: 90%;
+}
+
+/*mi modal*/
+.modal {
+	position: fixed;
+	display: none;
+	z-index: 10;
+	padding: 10px 10px;
+	top: 0;
+	height: calc(max-content + 2px);
+	width: 100%;
+	background-color: #8989acd7;
+	text-align: center;
+	
+	-webkit-animation-name: animarsuperior;
+	-webkit-animation-duration: 0.5s;
+	animation-name: animarsuperior;
+	animation-duration: 0.5s
+}
+
+.modal img{
+	position:relative;
+	width: 90%;
+}
+
+.modal button {
+	width: 25px;
+	height: 25px;
+	background-color: red;
+	color: aliceblue;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #fff;
+}
+
+.modalHead {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.modalBody {
+	height: max-content;
+	justify-content: center;
+	overflow: auto;
+}
+
+/* Animación */
+@-webkit-keyframes animarsuperior {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+}
+
+@keyframes animarsuperior {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+@media screen and (max-width: 800px) {
+    .modal img{
+        width: auto;
+        height: 500px;
+    }
+}
+
+/*/mi modal*/
 
 
 /*Inicio Link Avisos*/

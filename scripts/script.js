@@ -1,7 +1,7 @@
 //Diccionario de links
 var diccio = {"PDR": "https://chat.whatsapp.com/DETUrqVaJyw9wVVXItwDR2", "LL":"https://chat.whatsapp.com/GV2sMWZe2pdBsM99OjRbbx"};
 
-var imgItems = {"horario": "imagenes/Horario_De_Clases_S4.png"};
+var imgItems = {"horario": "imagenes/Horario_De_Clases_S4.png", "malla":"imagenes/TECNICO SUPERIOR EN PROGRAMACIÓN DE APLICACIONES INFORMATICAS.jpg", "calendario":"imagenes/CALENDARIO-ACADEMICO-4S.jpg"};
 
 // Modal
 var modal = document.getElementById("vistaGrande");

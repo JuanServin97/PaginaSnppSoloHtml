@@ -132,13 +132,12 @@ body{
 }
 
 .glitch-efect{
-    font-family: 'Rubik', sans-serif;
-    color: aqua;
-    text-shadow: none;
-    animation: glitch 10s infinite;
+    font-family: 'Rubik Glitch', sans-serif;
+    color: aqua !important;
+    text-shadow:  -3px 3px 5px rgb(0, 0, 0);
 }
 
-@keyframes glitch {
+/*@keyframes glitch {
     0% {font-family: 'Rubik', sans-serif; color: aqua; text-shadow: none;} 
     9% {font-family: 'Rubik', sans-serif; color: aqua;}
 
@@ -161,3 +160,4 @@ body{
     72% {font-family: 'Rubik', sans-serif; color: aqua; text-shadow: none;}
     100% {font-family: 'Rubik', sans-serif; color: aqua;}
 }
+*/
